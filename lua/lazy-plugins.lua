@@ -36,6 +36,8 @@ vim.opt.rtp:prepend(lazypath)
 
 require('lazy').setup({
 
+  require 'kickstart/plugins/alpha',
+
   require 'kickstart/plugins/color_scheme',
 
   'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
